@@ -1,0 +1,20 @@
+As an owner of a store, you need to keep track of your inventory to make sure only the highest quality items are
+on the shelves. In order to keep track of the inventory, we need to create a program that calculates the price of items
+for the following day.
+
+Dairy expires 7 days after it arrives.
+Fruit expires 5 days after it arrives.
+Bread expires 14 days after it arrives.
+Gift Cards are not perishable, and so should never be discounted. We don't care how long it has been in our
+inventory.
+
+1 day before expiration, the goods that remain in the inventory are discounted 25% off.
+
+Shipments only ever come on Saturdays.
+
+Tuesdays offer an 10% discount on all items. This discount is applied instead of the expiration discount for expiring goods.
+
+At the end of the day, expired goods are thrown out. The inventory manager needs to remove them from the inventory.
+
+Items as they are purchased can be assumed to be removed from the inventory when the purchase occurs.
+
