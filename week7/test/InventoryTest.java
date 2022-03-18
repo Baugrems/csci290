@@ -141,7 +141,6 @@ public class InventoryTest {
         Assertions.assertEquals(90, item2.price);
         Assertions.assertEquals(3, item3.timeInStore);
         Assertions.assertEquals(90, item3.price); // Discounts should work for all items still in inventory
-        
     }
 
 }
