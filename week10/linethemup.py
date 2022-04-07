@@ -1,13 +1,13 @@
-
+# variables to track trends
 increasing = False
 decreasing = False
 neither = False
 
-def isAlphabetical(index, names):
+def isAlphabetical(index, names): # recursive function
     global increasing
     global decreasing
     global neither
-    if index == len(names) - 1:
+    if index == len(names) - 1: # base case, return if we hit end of list
         return
     if names[index + 1] > names[index]:
         increasing = True
@@ -17,7 +17,7 @@ def isAlphabetical(index, names):
         decreasing = True
         if increasing:
             neither = True
-    return isAlphabetical(index + 1, names)
+    return isAlphabetical(index + 1, names) # call again, increase index
     
 amt = int(input())
 
